@@ -1,5 +1,5 @@
 <h1><u>Uniform Crime Reports</u>
-<br><i>  County Level Arrests & Offenses (1977 - 2008)</i>
+<br><i>  County Level Arrests & Offenses <BR>(1977 - 2008)</i>
 </h1>
 
 ## DATA PROVIDED BY
