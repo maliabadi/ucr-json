@@ -1,0 +1,30 @@
+dictionary {
+*****************************************************************
+*
+*  Warning: Edit this file at your own risk
+*
+*****************************************************************
+_lines(1)
+
+_line(1)
+
+_column(1)     int   V1                 %4f    "ICPSR STUDY NUMBER"
+_column(5)     int   V2                 %1f    "ICPSR EDITION NUMBER"
+_column(6)     int   V3                 %2f    "ICPSR PART NUMBER"
+_column(8)     int   V4                 %4f    "ICPSR SEQUENCE NUMber"
+_column(12)    int   V5                 %2f    "STATE CODE"
+_column(14)    int   V6                 %3f    "COUNTY CODE"
+_column(17)    long  V7                 %7f    "POPULATION"
+_column(24)    long  V8                 %7f    "GRAND TOTAL"
+_column(31)    long  V9                 %6f    "PART 1 TOTAL"
+_column(37)    long  V10                %5f    "VIOLENT CRIMES"
+_column(42)    long  V11                %5f    "PROPERTY CRIMES"
+_column(47)    int   V12                %4f    "MURDER"
+_column(51)    int   V13                %4f    "RAPE"
+_column(55)    long  V14                %5f    "ROBBERY"
+_column(60)    long  V15                %5f    "ASSAULT"
+_column(65)    long  V16                %5f    "BURGLARY"
+_column(70)    long  V17                %5f    "LARCENY"
+_column(75)    long  V18                %5f    "VEHICLE THEFT"
+_column(80)    int   V19                %4f    "ARSON"
+}
