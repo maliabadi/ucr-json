@@ -2,6 +2,7 @@
 
 require 'rubygems'
 require 'json'
+require 'awesome_print'
 
 raise 'No ID provided' unless ARGV.size > 0
 
@@ -12,9 +13,23 @@ data_rows = File.open(DIRNAME + "/data/#{ID}.txt", 'r') do |file|
 	file.read.split(/\n/)
 end
 
-definition_rows = File.open(DIRNAME + "/definitions/#{ID}.tsv", 'r') do |file|
+code_table = File.open(DIRNAME + "/code_table.csv", 'r') do |file|
 	file.read.split(/\n/).map do |row|
-		row.split(/\t/)
+		row.split(/\t/).map do |column|
+			column.gsub(/["']/, '')
+		end
+	end
+end
+
+id_to_definition_file = Hash[code_table.map do |row|
+	[row[0], row[4]]
+end]
+
+definition_rows = File.open(DIRNAME + "/definitions/#{id_to_definition_file[ID]}.csv", 'r') do |file|
+	file.read.split(/\n/).map do |row|
+		row.split(/\t/).map do |column|
+			column.gsub(/["']/, '')
+		end
 	end
 end
 
@@ -38,10 +53,9 @@ section_to_definition = Hash[sections.map do |section|
 	end]
 end]
 
-
 json_data = data_rows.map do |row|
 	chars = row.split(//)
-	part = chars[5]
+	part = ['08714', '08703'].include?(ID) ? chars[5..6].join('').to_i.to_s : chars[5]
 	expanded = Hash[section_to_definition[part].map do |var|
 		label = var[0]
 		value = ''
