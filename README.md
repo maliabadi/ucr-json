@@ -51,16 +51,16 @@ If, for example, you opened up **data/parsed/normalized/1996.json** you would fi
     "weapons_violations": 39,
     "prostitutioncomm_vice": 0,
     "sex_offenses": 19,
-    "drug_abuse_violationstotal": 450,
-    "drug_abuse_salemanufacture": 18,
-    "opiumcocainesalemanufacture": 16,
-    "marijuanasalemanufacture": 2,
-    "syntheticdrug_salemanufacture": 0,
-    "otherdang_nonnarcotics": 0,
+    "drug_abuse_violations_total": 450,
+    "drug_abuse_sale_manufacture": 18,
+    "opium_cocaine_sale_manufacture": 16,
+    "marijuana_sale_manufacture": 2,
+    "synthetic_drug_sale_manufacture": 0,
+    "other_dang_non_narcotics": 0,
     "drug_possession_subtotal": 432,
-    "opiumcocaine_possession": 44,
+    "opium_cocaine_possession": 44,
     "marijuana_possession": 366,
-    "synthetic_narcoticspossession": 7,
+    "synthetic_narcotics_possession": 7,
     "drug_possession_other": 15,
     "gambling_total": 0,
     "bookmaking_horsesport": 0,
@@ -76,7 +76,7 @@ If, for example, you opened up **data/parsed/normalized/1996.json** you would fi
     "suspicion": 0,
     "curfew_loitering_laws": 0,
     "runaways": 23
-  },
+  }
 ```
 
 
