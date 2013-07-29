@@ -15,7 +15,7 @@ data
       ...
 ```
 
-If, for example, you opened up **data/parsed/normalized/1996.json** you would find something like this, which is that year's report for Baldwin County, Alabama.
+If, for example, you opened up **data/parsed/normalized/1996.json** you would find an array containing **3,144** entries, on for each county or county-equivalent in the US. Here's an example of one of those entries, from the 1996 report for *Baldwin County, Alabama*.
 
 
 ```json
@@ -95,7 +95,7 @@ For the purposes of this project, I've translated all the available data as JSON
 
 For more information on UCR data in general, check out The FBI's [Uniform Crime Reporting Handbook](http://www2.fbi.gov/ucr/handbook/ucrhandbook04.pdf)
 
-### BIBLIOGRAPHY
+### Bibliography
 
 > * *U.S. Dept. of Justice, Federal Bureau of Investigation. UNIFORM CRIME REPORTING PROGRAM DATA [UNITED STATES]: COUNTY LEVEL ARREST AND OFFENSES DATA, 1977-1983 [Computer file]. Washington, DC: U.S. Dept. of Justice, Federal Bureau of Investigation [producer], 1984. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor], 1998.*
 
