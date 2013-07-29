@@ -15,7 +15,7 @@ data
       ...
 ```
 
-If, for example, you opened up **data/parsed/normalized/1996.json** you would find an array containing **3,144** entries, on for each county or county-equivalent in the US. Here's an example of one of those entries, from the 1996 report for *Baldwin County, Alabama*.
+If, for example, you opened up **data/parsed/normalized/1996.json** you would find an array containing **3,144 entries, one for each county or county-equivalent in the US**. Here's an example of one of those entries, from the 1996 report for *Baldwin County, Alabama*.
 
 
 ```json
