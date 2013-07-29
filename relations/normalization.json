@@ -1,0 +1,240 @@
+[
+  {
+    "use": "COUNTY POPULATION",
+    "for": [
+      "COUNTY POPULATION",
+      "COUNTY POPULATION OF",
+      "COUNTY POPULATION-TOTAL",
+      "TOTAL COUNTY POPULATION",
+      "TOTAL COUNTY POPULATION OF AGENCIES",
+      "POPULATION"
+    ]
+  },
+  {
+    "use": "DRUG ABUSE SALE/MANUFACTURE",
+    "for": [
+      "DRUG ABUSE SALE/MANUFAC",
+      "DRUG ABUSE SALE/MANUFACTURE"
+    ]
+  },
+  {
+    "use": "DRUG ABUSE VIOLATIONS-TOTAL",
+    "for": [
+      "DRUG ABUSE VIOL. TOTAL",
+      "DRUG ABUSE VIOLATIONS-TOTAL"
+    ]
+  },
+  {
+    "use": "DRUG POSSESSION SUBTOTAL",
+    "for": [
+      "DRUG POSSESSION SUBTOTAL",
+      "DRUG POSSESSION-SUBTOTAL"
+    ]
+  },
+  {
+    "use": "DRUG POSSESSION: OTHER",
+    "for": [
+      "DRUG POSSESSION: OTHER",
+      "OTHER DRUG-POSSESSION"
+    ]
+  },
+  {
+    "use": "OPIUM/COCAINE POSSESSION",
+    "for": [
+      "OPIUM/COCAINE POSSESSION",
+      "OPIUM/COCAINE-POSSESSION"
+    ]
+  },
+  {
+    "use": "OPIUM/COCAINE-SALE/MANUFACTURE",
+    "for": [
+      "OPIUM/COCAINE SALE/MANUF",
+      "OPIUM/COCAINE-SALE/MANUFACTURE"
+    ]
+  },
+  {
+    "use": "SYNTHETIC NARCOTICS-POSSESSION",
+    "for": [
+      "SYNTH NARCOTICS POSSESSN",
+      "SYNTHETIC NARCOTICS-POSSESSION"
+    ]
+  },
+  {
+    "use": "SYNTHETIC-DRUG SALE/MANUFACTURE",
+    "for": [
+      "SYNTHETIC DRUG SALE/MANU",
+      "SYNTHETIC-DRUG SALE/MANUFACTURE"
+    ]
+  },
+  {
+    "use": "GAMBLING: ALL OTHER",
+    "for": [
+      "GAMBLING-ALL OTHER",
+      "GAMBLING: ALL OTHER"
+    ]
+  },
+  {
+    "use": "GAMBLING: TOTAL",
+    "for": [
+      "GAMBLING-TOTAL",
+      "GAMBLING: TOTAL"
+    ]
+  },
+  {
+    "use": "ICPSR SEQUENTIAL CASE ID NUMBER",
+    "for": [
+      "ICPSR SEQ CASE ID NUMBER",
+      "ICPSR SEQUENTIAL CASE ID NUMBER",
+      "ICPSR SEQUENCE NUMBER",
+      "ICPSR SEQUENTIAL ID"
+    ]
+  },
+  {
+    "use": "ICPSR STUDY NUMBER",
+    "for": [
+      "ICPSR STUDY NUMBER",
+      "ICPSR STUDY NUMBER-3721",
+      "ICPSR STUDY NUMBER-6316",
+      "ICPSR STUDY NUMBER-6669",
+      "ICPSR STUDY NUMBER-9119",
+      "ICPSR STUDY NUMBER-9335",
+      "ICPSR STUDY NUMBER-9573",
+      "ICPSR VERSION NUMBER-1"
+    ]
+  },
+  {
+    "use": "LARCENY",
+    "for": [
+      "LARCENIES",
+      "LARCENY"
+    ]
+  },
+  {
+    "use": "MARIJUANA POSSESSION",
+    "for": [
+      "MARIJUANA POSSESSION",
+      "MARIJUANA-POSSESSION"
+    ]
+  },
+  {
+    "use": "MARIJUANA-SALE/MANUFACTURE",
+    "for": [
+      "MARIJUANA SALE/MANUF",
+      "MARIJUANA-SALE/MANUFACTURE"
+    ]
+  },
+  {
+    "use": "MURDER",
+    "for": [
+      "MURDER",
+      "MURDERS"
+    ]
+  },
+  {
+    "use": "OFFENSES AGAINST FAMILY & CHILD",
+    "for": [
+      "OFFEN AGAINST FAM & CHIL",
+      "OFFENSES AGAINST FAMILY & CHILD"
+    ]
+  },
+  {
+    "use": "OPIUM/COCAINE POSSESSION",
+    "for": [
+      "OPIUM/COCAINE POSSESSION",
+      "OPIUM/COCAINE-POSSESSION"
+    ]
+  },
+  {
+    "use": "OPIUM/COCAINE-SALE/MANUFACTURE",
+    "for": [
+      "OPIUM/COCAINE SALE/MANUF",
+      "OPIUM/COCAINE-SALE/MANUFACTURE"
+    ]
+  },
+  {
+    "use": "RAPE",
+    "for": [
+      "RAPE",
+      "RAPES"
+    ]
+  },
+  {
+    "use": "ROBBERY",
+    "for": [
+      "ROBBERIES",
+      "ROBBERY"
+    ]
+  },
+  {
+    "use": "RUNAWAYS",
+    "for": [
+      "RUN-AWAYS (JUVENILES)",
+      "RUNAWAYS",
+      "RUNAWAYS (JUVENILES)"
+    ]
+  },
+  {
+    "use": "PART 1 TOTAL",
+    "for": [
+      "PART 1 TOTAL",
+      "PART 1-TOTAL"
+    ]
+  },
+  {
+    "use": "PROPERTY CRIMES",
+    "for": [
+      "PART 1-PROPERTY CRIMES",
+      "PROPERTY CRIMES"
+    ]
+  },
+  {
+    "use": "VIOLENT CRIMES",
+    "for": [
+      "PART 1-VIOLENT CRIMES",
+      "VIOLENT CRIMES"
+    ]
+  },
+  {
+    "use": "AUTO THEFTS",
+    "for": [
+      "VEHICLE THEFT",
+      "MOTOR VEHICLE THEFTS",
+      "AUTO THEFTS"
+    ]
+  },
+  {
+    "use": "ARSON",
+    "for": [
+      "ARSON",
+      "ARSONS"
+    ]
+  },
+  {
+    "use": "ALL OTHER OFFENSES EXCEPT TRAFFIC",
+    "for": [
+      "ALL OTH OFFS EX TRAFFIC",
+      "ALL OTHER OFF EXCEPT TRAFFIC"
+    ]
+  },
+  {
+    "use": "BURGLARY",
+    "for": [
+      "BURGLARIES",
+      "BURGLARY"
+    ]
+  },
+  {
+    "use": "FIPS COUNTY CODE",
+    "for": [
+      "FIPS COUNTY CODE",
+      "COUNTY CODE"
+    ]
+  },
+  {
+    "use": "FIPS STATE CODE",
+    "for": [
+      "FIPS STATE CODE",
+      "STATE CODE"
+    ]
+  }
+]
