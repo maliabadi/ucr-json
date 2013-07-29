@@ -23,10 +23,6 @@ def get_study icpsr
 	open_and_read "#{DATA_PATH}/#{icpsr}.json"
 end
 
-def write_years
-
-end
-
 def run
 	get_study_keys.each_pair do |study, data|
 		study_data = get_study(study)
@@ -50,4 +46,7 @@ def run
 	end
 end
 
-run
+if ARGV[0] == 'run'
+	run
+end
+

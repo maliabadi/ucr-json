@@ -4,10 +4,10 @@ require 'awesome_print'
 
 raise 'No ID provided' unless ARGV.size > 0
 
-DIRNAME = File.dirname(__FILE__)
+DIRNAME = File.expand_path(File.dirname(__FILE__) + "/../")
 ID = ARGV.first.strip
 
-data_rows = File.open(DIRNAME + "/data/#{ID}.txt", 'r') do |file|
+data_rows = File.open(DIRNAME + "/data/unparsed/#{ID}.txt", 'r') do |file|
 	file.read.split(/\n/)
 end
 
@@ -23,7 +23,7 @@ id_to_definition_file = Hash[code_table.map do |row|
 	[row[0], row[4]]
 end]
 
-definition_rows = File.open(DIRNAME + "/definitions/#{id_to_definition_file[ID]}.csv", 'r') do |file|
+definition_rows = File.open(DIRNAME + "/relations/definitions/#{id_to_definition_file[ID]}.csv", 'r') do |file|
 	file.read.split(/\n/).map do |row|
 		row.split(/\t/).map do |column|
 			column.gsub(/["']/, '')
@@ -65,6 +65,6 @@ json_data = data_rows.map do |row|
 	end]
 end
 
-File.open(DIRNAME + "/data/json/#{ID}.json", 'w+') do |file|
+File.open(DIRNAME + "/data/parsed/#{ID}.json", 'w+') do |file|
 	file.write JSON.pretty_generate(json_data)
 end
