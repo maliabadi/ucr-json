@@ -9,6 +9,14 @@
 * [The Federal Bureau of Investigation](http://www.fbi.gov/)
 * [The United States Department of Justice](http://www.justice.gov/)
 
+## UCR as JSON
+
+Part of the purpose of this project is to provide the UCR data into a more generally useful format. It's provided by the NACJD as flat, fixed-width ASCII text files, each one-character column of  which represents a variable that is specified in the PDF Codebook that accompanies it. The variables, and which columns they represent, changes from year to year, and one must reference each year's lengthy PDF documentation to understand exactly what that year's data means. It goes without saying that this is not a particularly analyst-, programmer-, or human--friendly way of representing this data.
+
+For the purposes of this project, I've translated all the available data as JSON. It's important to note that the JSON-encoded data **only represents arrests** reported by state and local law enforcement agencies, and not 'crimes reported' VIA the National Incident-Based Reporting System. This is done partially out of laziness, but also because arrest-level data is categorized in the UCR reports in a tigher and more granular way.
+
+For more information on UCR data in general, check out The FBI's [Uniform Crime Reporting Handbook](http://www2.fbi.gov/ucr/handbook/ucrhandbook04.pdf)
+
 ## BIBLIOGRAPHY
 
 > * *U.S. Dept. of Justice, Federal Bureau of Investigation. UNIFORM CRIME REPORTING PROGRAM DATA [UNITED STATES]: COUNTY LEVEL ARREST AND OFFENSES DATA, 1977-1983 [Computer file]. Washington, DC: U.S. Dept. of Justice, Federal Bureau of Investigation [producer], 1984. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor], 1998.*
